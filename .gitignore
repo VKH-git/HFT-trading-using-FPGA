@@ -1,0 +1,79 @@
+# ============================================================
+# FPGA HFT Trading System - .gitignore
+# ============================================================
+
+# ── Simulation Compiled Outputs ──────────────────────────────
+*.vvp
+*.vcd
+*.lxt
+*.fst
+
+# ── Xilinx Vivado Generated Files ────────────────────────────
+*.jou
+*.log
+*.str
+*.pb
+*.xsa
+*.bit
+*.bin
+*.mcs
+*.prm
+*.ltx
+*.rpt
+*.dcp
+*.xdc.bak
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/utils_1/
+*.gen/
+.Xil/
+vivado_pid*.str
+webtalk*.xml
+webtalk*.jou
+
+# ── Xilinx ISE ───────────────────────────────────────────────
+*.xise
+*.gise
+*.bgn
+*.bld
+*.cmd_log
+*.drc
+*.ncd
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.ptwx
+*.stx
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.ut
+*.xpi
+*.xst
+
+# ── ModelSim / QuestaSim ─────────────────────────────────────
+work/
+transcript
+vsim.wlf
+*.wlf
+
+# ── OS & Editor Junk ─────────────────────────────────────────
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ── Python cache ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
